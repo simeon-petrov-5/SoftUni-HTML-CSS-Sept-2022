@@ -1,0 +1,11 @@
+h1 {
+  color: lightsalmon;
+}
+
+#news .hot-topic h1 {
+  color: limegreen;
+}
+
+.red {
+  color: red;
+}
