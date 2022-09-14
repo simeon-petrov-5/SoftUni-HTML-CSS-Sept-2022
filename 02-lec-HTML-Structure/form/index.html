@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORMS</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Forms example</h1>
+
+
+    <form action="/submit.html" method="POST">
+      <div>
+        <label for="first-name">First Name</label>
+        <input
+          id="first-name"
+          type="text"
+          name="first-name-test"
+          required
+          placeholder="John"
+        />
+      </div>
+
+      <div>
+        <label for="number">Input number</label>
+        <input
+          id="number"
+          min="1"
+          max="10"
+          type="number"
+          name="number"
+          value="9"
+        />
+      </div>
+
+      <label for="password">Input password</label>
+      <input
+        id="password"
+        type="password"
+        name="password"
+        placeholder="******"
+        disabled
+      />
+
+      <br />
+
+      <label for="email">Input email</label>
+      <input id="email" type="email" name="email" required value="simo@abv.bg"/>
+
+      <!-- <input type="color" /> -->
+      <!-- <input type="date" /> -->
+
+      <!-- <input type="checkbox" />
+      <input type="radio" />
+      <input type="range" />
+      <input type="file" /> -->
+
+      <p>Select your gender</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male" />
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female"/>
+
+      <label for="genderNA">N/A</label>
+      <input type="radio" id="genderNA" name="gender" value="genderNA"/>
+
+      <!-- Todo - clear out data sent -->
+      <p>Select your hobbies</p>
+      <label for="reading">Reading</label>
+      <input type="checkbox" id="reading" name="hobbies" value="reading"/>
+
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="sports" name="hobbies" value="sports"/>
+
+      <label for="music">Music</label>
+      <input type="checkbox" id="music" name="hobbies" value="music"/>
+
+      <label for="size">Size:</label>
+      <select id="size" name="size">
+        <option value="39">39 EU</option>
+        <option value="40">40 EU</option>
+        <option value="41.5">41.5 EU</option>
+      </select>
+
+      <br />
+      
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Customer Details</legend>
+        <input type="text" name="fName" />
+        <input type="text" name="lName" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Order Details</legend>
+        <input type="text" name="quantity" />
+        <textarea name="remarks"></textarea>
+      </fieldset>
+
+      <br />
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>

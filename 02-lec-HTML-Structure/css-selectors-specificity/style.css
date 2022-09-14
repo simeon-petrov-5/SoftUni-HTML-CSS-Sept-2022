@@ -1,0 +1,63 @@
+/* .section ul .main-item .text {
+  color: green;
+} */
+
+/* ---------- */
+/* Grouping selectors */
+/* div.section ul#list.main .main-item span.text {
+  color: green;
+}
+
+div.section ul#list.main .main-item p.text {
+  color: red;
+} */
+
+/* ---------- */
+/* Select direct child/element */
+/* .main .main-item > .text {
+  color: darkcyan;
+} */
+
+/* ---------- */
+/* Multiple selectors, same styles */
+
+/* .main .main-item > .text,
+.sub .sub-item > .text {
+  color: red;
+} */
+
+/* ---------- */
+/* Overwriting by order */
+/* .main .main-item > .text {
+  color: red;
+}
+
+.main .main-item > .text {
+  color: blue;
+} */
+
+/* ---------- */
+/* Specificity */
+
+/* ---------- */
+/* Overwriting by specificity */
+
+/* Specificity - 1 1 1 1 */
+div ul li span {
+  color: red;
+}
+
+/* 10 1 10 10 */
+.section ul .main-item .text {
+  color: green;
+}
+
+/* Specificity - 10 100 10 10*/
+.section #list .main-item .text {
+  color: green;
+}
+
+/* Specificity - 11 111 10 11*/
+div.section ul#list.main .main-item p.text {
+  color: red;
+}
