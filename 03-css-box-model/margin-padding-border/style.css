@@ -1,0 +1,44 @@
+/* 
+      ------
+      Block example
+      ------
+  */
+
+/* .block {
+  padding: 32px 16px;
+  margin: 32px;
+  border: 2px solid transparent;
+} */
+
+.block .item {
+  background-color: #33a595;
+  padding: 18px 12px;
+  margin: 16px;
+  border: 2px solid red;
+}
+
+/* 
+  ------
+  Inline example
+  ------
+*/
+.inline .item {
+  background-color: #33a595;
+  padding: 0px 32px;
+  margin: 0px 32px;
+  border: 2px solid red;
+}
+
+/* 
+        ------
+        Inline-block example
+        ------
+    */
+.inline-block .item {
+  background-color: #33a595;
+  padding: 18px 12px;
+  margin: 16px;
+  border: 2px solid red;
+
+  width: 30%;
+}

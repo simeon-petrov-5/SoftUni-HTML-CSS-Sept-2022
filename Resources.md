@@ -14,3 +14,10 @@
 - [The importance of semantic markup](https://shapeshed.com/the-importance-of-semantic-markup/)
 - [How to Section Your HTML](https://css-tricks.com/how-to-section-your-html/)
 - [Twitter’s div Soup and Uglyfied CSS, Explained](https://css-tricks.com/twitters-div-soup-and-uglyfied-css-explained/)
+
+
+## 04 CSS Box Model
+- [Article Card](https://codepen.io/eyupucmaz/pen/oNbeXOb)
+- [BEM](https://getbem.com/introduction/)
+- [Creating clean CSS with BEM methodology](https://www.devbridge.com/articles/implementing-clean-css-bem-method)
+- [CUBE CSS](https://cube.fyi/)
