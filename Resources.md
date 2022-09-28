@@ -21,3 +21,9 @@
 - [BEM](https://getbem.com/introduction/)
 - [Creating clean CSS with BEM methodology](https://www.devbridge.com/articles/implementing-clean-css-bem-method)
 - [CUBE CSS](https://cube.fyi/)
+
+## 04 Exercise
+- [CSS Attribute selectors](w3schools.com/css/css_attribute_selectors.asp)
+- [CSS Margin Collapse](https://www.w3schools.com/css/css_margin_collapse.asp)
+- [:nth Tester](https://css-tricks.com/examples/nth-child-tester/)
+- [Generate a CSS Color Gradient](https://mycolor.space/gradient)

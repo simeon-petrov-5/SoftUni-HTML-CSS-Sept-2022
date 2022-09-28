@@ -1,0 +1,34 @@
+body {
+  background-color: #02475e;
+}
+
+article h2 {
+  font-size: 36px;
+  color: #fefecc;
+  margin: 12px;
+  text-align: center;
+}
+
+article p {
+  color: #eee;
+  font-family: Arial, sans-serif;
+  line-height: 24px;
+  padding: 10px;
+  text-indent: 30px;
+}
+
+article div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #fff;
+}
+
+article span{
+    width: 120px;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 5px;
+    margin: -11px auto 0 auto;
+    background-color: #fff;
+    display: block;
+}

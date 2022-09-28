@@ -1,0 +1,30 @@
+body {
+  background-color: #eaebec;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  background-color: lightblue;
+  padding: 12px;
+}
+
+div {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+
+/* p:nth-child(3n),
+div:nth-child(3n) {
+  background-color: lightsalmon;
+} */
+
+p:last-child {
+  background-color: lightcoral;
+}
+p:nth-child(7) {
+  background-color: lightcoral;
+}
+
+p:nth-of-type(7) {
+  background-color: lightsalmon;
+}

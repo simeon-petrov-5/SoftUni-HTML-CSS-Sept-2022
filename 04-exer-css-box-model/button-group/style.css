@@ -1,0 +1,58 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:root {
+  --clr-primary: #ff9671;
+  --clr-primary-light: #fff5f1;
+  --clr-grey: #58545d;
+  --clr-grey-light: #e7e5ea;
+}
+
+body {
+  background-color: #dadbdf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.group {
+  width: 400px;
+  margin: 50px auto;
+  display: block;
+
+  font-size: 0px;
+}
+
+.group .group__btn {
+  --btn-clr-primary: var(--clr-grey);
+  --btn-clr-primary-light: var(--clr-grey-light);
+
+  font-size: 12px;
+  padding: 8px 12px;
+  width: 25%;
+  border-radius: 0px;
+  color: var(--btn-clr-primary);
+  border: 1px solid var(--btn-clr-primary);
+  background-color: var(--btn-clr-primary-light);
+  cursor: pointer;
+}
+
+.group .group__btn:first-child {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.group .group__btn:last-child {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.group .group__btn:not(:first-child) {
+  border-left: 0px;
+}
+
+.group .group__btn.active {
+  --btn-clr-primary: var(--clr-primary);
+  --btn-clr-primary-light: var(--clr-primary-light);
+}
