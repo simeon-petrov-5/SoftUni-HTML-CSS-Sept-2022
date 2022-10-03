@@ -30,9 +30,9 @@ article p {
   padding: 0 0.5rem;
 }
 
-article h2{
-    text-transform: uppercase;
-    letter-spacing: 1.1px;
+article h2 {
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
 }
 
 article ul li {
@@ -40,5 +40,21 @@ article ul li {
   padding: 0.25rem 0.75rem;
   margin-right: 0.5rem;
   border-radius: 0.25rem;
-  background-color: red;
+  background-color: var(--bg-clr);
+}
+
+.static ul li {
+  --bg-clr: #845ec2;
+}
+.relative ul li {
+  --bg-clr: #ff6f91;
+}
+.absolute ul li {
+  --bg-clr: #ff9671;
+}
+.fixed ul li {
+  --bg-clr: #008f7a;
+}
+.sticky ul li {
+  --bg-clr: #2c73d2;
 }

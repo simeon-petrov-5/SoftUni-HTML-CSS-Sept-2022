@@ -1,0 +1,9 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+  float: right;
+}
