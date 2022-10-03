@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaebec;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+article {
+  max-width: 450px;
+  border: 2px solid black;
+  margin-bottom: 3rem;
+}
+
+article h2,
+article ul,
+article p {
+  padding: 0 0.5rem;
+}
+
+article h2{
+    text-transform: uppercase;
+    letter-spacing: 1.1px;
+}
+
+article ul li {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+  background-color: red;
+}
