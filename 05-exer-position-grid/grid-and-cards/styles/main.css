@@ -2,3 +2,39 @@ body {
   background-color: #dadbdf;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.header {
+  background-color: #234465;
+  padding: 6px 24px;
+  position: relative;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.header .header__logo {
+  width: 150px;
+}
+
+.header .nav{
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header .nav .nav__item {
+  display: inline-block;
+}
+
+.header .nav .nav__item:not(:last-child) {
+  margin-right: 12px;
+}
+
+.header .nav .nav__item .nav__item__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
