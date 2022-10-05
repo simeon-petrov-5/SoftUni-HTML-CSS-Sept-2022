@@ -1,0 +1,61 @@
+body {
+  background-color: #dadbdf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main table */
+table.mainTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffcc00;
+  border-style: solid;
+  color: #000000;
+  table-layout: fixed;
+}
+
+table.mainTable td,
+table.mainTable th {
+  border-width: 2px;
+  border-color: #ab8f1e;
+  border-style: solid;
+  padding: 3px;
+  width: 250px;
+}
+
+table.mainTable td {
+  height: 50px;
+}
+
+table.mainTable thead {
+  background-color: #ffcc00;
+}
+
+/* Sub Table */
+table.subTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ff8000;
+  border-style: solid;
+  color: #000000;
+}
+
+table.subTable td,
+table.subTable th {
+  border-width: 2px;
+  border-color: #ff8000;
+  border-style: solid;
+  padding: 3px;
+  background-color: #ff800065;
+}
+
+table.subTable thead {
+  background-color: #ff8000;
+}
+
+.sub-container {
+  overflow: hidden;
+}
