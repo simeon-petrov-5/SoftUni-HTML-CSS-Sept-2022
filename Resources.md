@@ -27,3 +27,9 @@
 - [CSS Margin Collapse](https://www.w3schools.com/css/css_margin_collapse.asp)
 - [:nth Tester](https://css-tricks.com/examples/nth-child-tester/)
 - [Generate a CSS Color Gradient](https://mycolor.space/gradient)
+
+## 06 Flexbox
+-[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+-[FLEXBOX FROGGY](https://flexboxfroggy.com/)
+-[Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure)
+-[Design Safia-SaaS-Template](https://www.figma.com/community/file/892582971189995704)

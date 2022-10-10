@@ -1,0 +1,47 @@
+body {
+  background-color: #dadbdf;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  background-color: #234465;
+  padding: 6px 24px;
+  position: relative;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+.header .header__logo {
+  width: 150px;
+}
+
+.header .nav {
+  margin-left: auto;
+  margin-right: 24px;
+}
+
+.header .nav .list {
+  display: flex;
+  gap: 12px;
+}
+
+.header .nav .nav__item .nav__item__link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header .btn-login {
+  border: none;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}

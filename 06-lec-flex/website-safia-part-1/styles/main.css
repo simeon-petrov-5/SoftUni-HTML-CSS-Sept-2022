@@ -1,0 +1,56 @@
+:root {
+  --clr-white: #fff;
+
+  --clr-primary: #001a57;
+  --clr-primary-800: #00308f;
+  --clr-primary-600: #0059f7;
+  --clr-primary-300: #689eff;
+  --clr-primary-100: rgba(0, 89, 247, 0.16);
+
+  --clr-secondary: #66240a;
+  --clr-secondary-800: #c34b1e;
+  --clr-secondary-600: #f9724d;
+  --clr-secondary-300: #fbb6ab;
+  --clr-secondary-100: #fef1ef;
+
+  --clr-neutral: #070e27;
+  --clr-neutral-800: #081131;
+  --clr-neutral-700: #162044;
+  --clr-neutral-600: #4e5a85;
+  --clr-neutral-500: #7e8bb6;
+  --clr-neutral-300: #ccd2e9;
+
+  --page-px: 190px;
+  --page-px-mini: 80px;
+}
+
+body {
+  background-color: var(--clr-neutral);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
