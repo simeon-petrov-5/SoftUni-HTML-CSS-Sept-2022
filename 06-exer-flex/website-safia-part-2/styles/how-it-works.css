@@ -1,0 +1,35 @@
+#how-it-works {
+}
+
+#how-it-works .hiw__row {
+  width: calc(100% - 2 * var(--page-px));
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 110px;
+}
+
+#how-it-works .hiw__row:not(:last-child) {
+  margin-bottom: 96px;
+}
+
+#how-it-works .hiw__row .row__img {
+  --rotate-deg: -10deg;
+  width: 50%;
+  max-width: 550px;
+  transform-origin: bottom left;
+  transition: all 300ms ease-in-out;
+}
+#how-it-works .hiw__row .row__img:hover {
+  transform: scale(1.1) rotate(var(--rotate-deg));
+}
+
+#how-it-works .row__text .text__title {
+  color: var(--clr-white);
+  margin-bottom: 20px;
+}
+#how-it-works .row__text .text__desc {
+  color: var(--clr-neutral-500);
+  font-size: 20px;
+  line-height: 32px;
+}

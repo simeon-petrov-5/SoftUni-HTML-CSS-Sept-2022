@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 65vw;
+}
+.container span {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+/* FLEX EXAMPLE */
+
+.container-flex {
+  display: flex;
+}
+
+.container-flex .week {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-flex .week .week__item {
+  width: 20%;
+}
+
+.container-flex .week .week__item.workweek,
+.container-flex .week .week__item.weekend {
+  width: 100%;
+}
+
+.container-flex .week .week__item:nth-child(8),
+.container-flex .week .week__item:nth-child(9) {
+  width: 50%;
+}
+
+.container-flex .notes {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-flex .notes span {
+  height: 50%;
+}
+
+/* CSS GRID EXAMPLE */
+.container-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 36px);
+  grid-template-areas: 
+  "workweek workweek workweek workweek workweek workweek workweek workweek workweek workweek reminder reminder"
+  "mon mon tue tue wed wed thu thu fri fri reminder reminder"
+  "weekend weekend weekend weekend weekend weekend weekend weekend weekend weekend dates dates"
+  "sat sat sat sat sat sun sun sun sun sun dates dates";
+}
+
+.container-grid .workweek {
+  grid-area: workweek;
+}
+.container-grid .mon {
+  grid-area: mon;
+}
+.container-grid .tue {
+  grid-area: tue;
+}
+.container-grid .wed {
+  grid-area: wed;
+}
+.container-grid .thu {
+  grid-area: thu;
+}
+.container-grid .fri {
+  grid-area: fri;
+}
+.container-grid .weekend {
+  grid-area: weekend;
+}
+.container-grid .sat {
+  grid-area: sat;
+}
+.container-grid .sun {
+  grid-area: sun;
+}
+.container-grid .notes__reminder {
+  grid-area: reminder;
+}
+.container-grid .notes__dates {
+  grid-area: dates;
+}

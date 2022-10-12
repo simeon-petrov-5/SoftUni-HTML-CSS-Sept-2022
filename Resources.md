@@ -33,3 +33,7 @@
 -[FLEXBOX FROGGY](https://flexboxfroggy.com/)
 -[Flex Box Adventure](https://codingfantasy.com/games/flexboxadventure)
 -[Design Safia-SaaS-Template](https://www.figma.com/community/file/892582971189995704)
+
+## 06 Exercise flex
+- [Simplified Fluid Typography](https://css-tricks.com/simplified-fluid-typography/)
+- [Generating `font-size` CSS Rules and Creating a Fluid Type Scale](https://moderncss.dev/generating-font-size-css-rules-and-creating-a-fluid-type-scale/)

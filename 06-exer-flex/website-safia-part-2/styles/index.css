@@ -1,0 +1,9 @@
+@import url('reset.css');
+@import url('main.css');
+@import url('components/button.css');
+
+@import url('header.css');
+@import url('features.css');
+@import url('hero.css');
+@import url('how-it-works.css');
+@import url('pricing.css');
