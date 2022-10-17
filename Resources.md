@@ -37,3 +37,7 @@
 ## 06 Exercise flex
 - [Simplified Fluid Typography](https://css-tricks.com/simplified-fluid-typography/)
 - [Generating `font-size` CSS Rules and Creating a Fluid Type Scale](https://moderncss.dev/generating-font-size-css-rules-and-creating-a-fluid-type-scale/)
+
+## 07  Media queries and responsive design
+- [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
+- [@impot + @media](https://developer.mozilla.org/en-US/docs/Web/CSS/@import#examples)

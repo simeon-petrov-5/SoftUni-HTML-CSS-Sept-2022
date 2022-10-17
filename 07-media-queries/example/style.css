@@ -1,0 +1,17 @@
+h1 {
+  background-color: lightgreen;
+}
+
+p {
+  background-color: red;
+}
+
+p:hover {
+  background-color: lightcoral;
+}
+
+@media (min-width: 400px) and (max-width: 700px) {
+  h1 {
+    background-color: lightsalmon;
+  }
+}

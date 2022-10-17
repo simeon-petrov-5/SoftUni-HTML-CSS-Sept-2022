@@ -1,0 +1,137 @@
+#business {
+  padding: 100px 50px;
+}
+
+#business .business__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#business .business__row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+#business .business__row:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+#business .content,
+#business .row__img__wrapper {
+  width: 50%;
+}
+
+#business .content .content__title {
+  font-size: 46px;
+  color: var(--clr-black);
+  margin-bottom: 30px;
+}
+
+#business .content .content__desc {
+  font-size: 20px;
+  color: var(--clr-grey);
+  margin-bottom: 30px;
+}
+
+
+
+#business .row__img__wrapper {
+  height: 590px;
+  position: relative;
+}
+
+#business .row__img__wrapper .row__img {
+  max-width: unset;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#business .business__row:nth-child(even) .row__img {
+  left: unset;
+  right: 0px;
+}
+
+@media screen and (max-width: 1600px) {
+  #business .row__img__wrapper {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #business .row__img__wrapper {
+    height: 100%;
+    width: 50%;
+  }
+  #business .row__img__wrapper .row__img {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #business {
+    padding: 46px 35px;
+  }
+  #business .business__row:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  #business .business__row {
+    gap: 60px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  #business .content .content__title {
+    font-size: 32px;
+  }
+
+  #business .content .content__desc {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #business .business__row {
+    gap: 40px;
+  }
+
+  #business .content {
+    width: 60%;
+  }
+
+  #business .content .content__title {
+    font-size: 28px;
+  }
+
+  #business .content .content__desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  #business .business__row {
+    flex-direction: column;
+  }
+  #business .business__row:not(:last-child) {
+    margin-bottom: 80px;
+  }
+  #business .content {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #business .row__img__wrapper {
+    width: 80%;
+  }
+
+  #business .business__row:nth-child(even) {
+    flex-direction: column;
+  }
+}
