@@ -1,0 +1,238 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+
+:root {
+  --clr-primary: #e24e2a;
+  --clr-grey: #ececec;
+  --clr-grey-dark: #3f3f3f;
+  --clr-grey-text: #575652;
+  --clr-grey-bg: #383838;
+  --clr-green: #1b9772;
+  --clr-green-text: #3aa483;
+  --clr-green-link: #8ec2aa;
+  --clr-white: #fff;
+
+  --header-height: 66px;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  color: var(--clr-grey-dark);
+}
+
+/* Navigation */
+
+.header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: var(--clr-white);
+}
+
+.header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.header .logo .main {
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 1;
+}
+
+.header .logo .divider {
+  width: 1px;
+  height: 50px;
+  background-color: var(--clr-grey-dark);
+  display: inline-block;
+}
+
+.header .logo .sub {
+  font-size: 21px;
+  line-height: 1;
+}
+
+.header .nav {
+  display: flex;
+  gap: 2px;
+}
+
+.header .nav .nav-item {
+  padding: 1rem 2rem;
+  background-color: var(--clr-grey);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .nav .nav-item.active {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+}
+
+.header .nav .nav-item .nav-link {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 1.1px;
+  line-height: 1;
+}
+
+/* Hero */
+
+#hero {
+  height: calc(100vh - var(--header-height));
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero .img-container {
+  overflow: hidden;
+}
+
+#hero .img-container .hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#hero .content {
+  padding: 4rem;
+  background-color: var(--clr-primary);
+}
+
+#hero .content .text {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: var(--clr-white);
+  line-height: 1.5;
+  font-size: 19px;
+}
+
+/* sections */
+
+.section--full {
+  padding: 6rem 4rem;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.section-grid .section-grid-item {
+  text-align: center;
+}
+
+/* Features */
+#features {
+  background-color: var(--clr-grey-bg);
+  color: var(--clr-white);
+}
+
+#features .section-grid-item .icon-container {
+  padding: 1.5rem;
+  background-color: var(--clr-primary);
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+#features .section-grid-item .icon-container i {
+  font-size: 48px;
+}
+
+#features .section-grid-item .title {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+#features .section-grid-item .divider {
+  height: 1px;
+  background-color: var(--clr-grey-text);
+  margin-bottom: 1rem;
+}
+#features .section-grid-item .desc {
+  color: var(--clr-grey-text);
+  font-size: 20px;
+}
+
+/* Advantages */
+#advantages {
+  background-color: var(--clr-grey-bg);
+  color: var(--clr-white);
+}
+
+#advantages .section-grid-item .title {
+  margin-bottom: 2rem;
+}
+
+#advantages .section-grid-item .desc {
+  color: var(--clr-grey-text);
+  font-size: 20px;
+}
+
+/* Subscribe */
+
+#subscribe {
+  background-color: var(--clr-white);
+  text-align: center;
+}
+
+#subscribe .title {
+  font-size: 42px;
+}
+
+#subscribe .desc {
+  font-size: 22px;
+  color: var(--clr-grey-text);
+  margin-bottom: 2rem;
+}
+
+#subscribe .btn {
+  border: none;
+  background-color: var(--clr-green);
+  color: var(--clr-white);
+  padding: 1rem 3.5rem;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--clr-green);
+  /* color: var(--clr-green-text); */
+}
+
+.footer .resources {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer .resources .resource {
+  padding: 0 1rem;
+  color: var(--clr-green-text);
+}
+
+.footer .resources .divider {
+  height: 27px;
+  width: 2px;
+  background-color: var(--clr-green-text);
+}
+
+.footer a {
+  color: var(--clr-green-link);
+  text-decoration: none;
+  font-size: 18px;
+}
