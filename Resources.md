@@ -41,3 +41,7 @@
 ## 07  Media queries and responsive design
 - [A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [@impot + @media](https://developer.mozilla.org/en-US/docs/Web/CSS/@import#examples)
+
+
+## 09 Design to code
+- [Axiomatic CSS and Lobotomized Owls](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/)
